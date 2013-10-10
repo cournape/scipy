@@ -118,6 +118,10 @@ OpenSuse >= 10
 RHEL 
 ~~~~
 
+Stock compilers on RHEL 5 are known to mis-compile some scipy code, and result
+into segfault when running the test suite. You should use the gcc44-* compilers
+in the EPEL repositories instead.
+
 Fedora Core 
 ~~~~~~~~~~~
 
